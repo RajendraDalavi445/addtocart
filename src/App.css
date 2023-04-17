@@ -1,0 +1,140 @@
+/* *{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+} */
+
+.continue-shopping{
+  display: flex;
+  /* border: 1px solid red; */
+}
+.fa-arrow-left{
+  font-size: 1.8rem;
+  padding-top: 35px;
+  margin-left: 80px;
+  margin-right: 15px;
+}
+.heading{
+  font-size: 1.8rem;
+  padding-bottom: 10px;
+}
+.cart-icon{
+  position: relative;
+  /* border: 1px solid red; */
+}
+.fa-cart-shopping{
+  font-size: 2.1rem;
+  margin-right: 80px;
+  padding-top: 35px;
+}
+.para{
+  position: absolute;
+  padding: 13px 13px;
+  background-color: coral;
+  border-radius: 50%;
+  margin-left: 10px;
+  top:0px;
+  margin-left: 25px;
+  margin-bottom: 12px;
+ 
+}
+.maindiv{
+  display: flex;
+  justify-content: space-between;
+}
+/* =============== mainsection ===== */
+.main-cart-section{
+  margin-left: 80px;
+}
+h1{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.total-items{
+  margin-top: 5px;
+  text-transform: capitalize;
+}
+.product-img{
+  display: inline-block;
+}
+.img1{
+  width: 150px;
+  height: 100px;
+  margin-right: 120px;
+  
+  
+}
+.title{
+  display: inline-block;
+  margin-bottom: 4px;
+  padding-bottom: 5px;
+  align-items: center;
+  
+}
+.title h2{
+  margin: 0px;
+  padding: 0px;
+  margin-right: 120px;
+}
+.title p{
+  margin: 0px;
+ 
+ }
+ .add-minus{
+  display: inline-block;
+  margin-right: 120px;
+  
+}
+input{
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 80px;
+ 
+  text-align: center;
+}
+.price{
+  display: inline-block;
+  /* margin-right: 120px; */
+}
+.remove-item{
+  display: inline-block;
+  
+}
+/* ============ media ================= */
+@media (max-width:500px){
+  .maindiv{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    /* width: 500px; */
+  }
+  .continue-shopping .heading{
+    padding-top: 30px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    color: red;
+  }
+  .continue-shopping{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .cart-icon{
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+    color: green;
+  }
+  .cart-icon .fa-solid{
+    padding-left: 65px;
+  }
+  .main-cart-section{
+    text-align: center;
+    color: blueviolet;
+    font-weight: 700;
+  }
+  .product-img{
+    text-align: center;
+  }
+}
